@@ -80,7 +80,7 @@
     D: 'DDD',
     w: 'W',
     ww: 'WW',
-    z: 'ZZ',
+    z: 'z',
     zzzz: 'Z',
     Z: 'ZZ',
     X: 'ZZ',
@@ -123,7 +123,7 @@
     DDD: 'D',
     W: 'w',
     WW: 'ww',
-    ZZ: 'z',
+    z: 'z',
     Z: 'XXX',
     E: 'u'
   };

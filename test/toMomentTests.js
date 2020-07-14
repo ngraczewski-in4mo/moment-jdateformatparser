@@ -59,7 +59,7 @@ test("Weekday checks", function () {
 });
 
 test("Timezone checks", function () {
-  equal(moment().toMomentFormatString("z"), "ZZ", "Check timezone short");
+  equal(moment().toMomentFormatString("z"), "z", "Check timezone short");
   equal(moment().toMomentFormatString("zzzz"), "Z", "timezone long");
 
   equal(moment().toMomentFormatString("Z"), "ZZ", "Check day in year");

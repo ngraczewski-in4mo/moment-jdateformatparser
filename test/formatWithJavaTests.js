@@ -67,7 +67,7 @@ test("Weekday checks", function () {
 });
 
 test("Timezone checks", function () {
-  equal(moment("2013-12-24 14:30").utc().formatWithJDF("z"), "+0000", "Check timezone short");
+  equal(moment("2013-12-24 14:30").utc().formatWithJDF("z"), "UTC", "Check timezone short");
   equal(moment("2013-12-24 14:30").utc().formatWithJDF("zzzz"), "+00:00", "timezone long");
 
   equal(moment("2013-12-24 14:30").utc().formatWithJDF("Z"), "+0000", "Check day in year");
